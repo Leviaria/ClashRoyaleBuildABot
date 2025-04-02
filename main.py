@@ -1,4 +1,4 @@
-from error_handling import WikifiedError
+from clashroyalebuildabot.utils import WikifiedError
 
 try:
     import signal
