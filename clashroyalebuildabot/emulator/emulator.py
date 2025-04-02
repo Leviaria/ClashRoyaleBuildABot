@@ -19,7 +19,7 @@ from clashroyalebuildabot.constants import ADB_PATH
 from clashroyalebuildabot.constants import EMULATOR_DIR
 from clashroyalebuildabot.constants import SCREENSHOT_HEIGHT
 from clashroyalebuildabot.constants import SCREENSHOT_WIDTH
-from error_handling import WikifiedError
+from clashroyalebuildabot.utils import WikifiedError
 
 
 class Emulator:

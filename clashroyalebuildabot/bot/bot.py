@@ -22,8 +22,8 @@ from clashroyalebuildabot.constants import TILE_WIDTH
 from clashroyalebuildabot.detectors.detector import Detector
 from clashroyalebuildabot.emulator.emulator import Emulator
 from clashroyalebuildabot.namespaces import Screens
+from clashroyalebuildabot.utils import WikifiedError
 from clashroyalebuildabot.visualizer import Visualizer
-from error_handling import WikifiedError
 
 pause_event = threading.Event()
 pause_event.set()

@@ -1,6 +1,7 @@
 from copy import deepcopy
 import os
 import time
+from typing import List
 
 from loguru import logger
 
@@ -10,7 +11,7 @@ from clashroyalebuildabot.detectors.number_detector import NumberDetector
 from clashroyalebuildabot.detectors.screen_detector import ScreenDetector
 from clashroyalebuildabot.detectors.unit_detector import UnitDetector
 from clashroyalebuildabot.namespaces import State
-from error_handling import WikifiedError
+from clashroyalebuildabot.utils import WikifiedError
 
 
 class Detector:

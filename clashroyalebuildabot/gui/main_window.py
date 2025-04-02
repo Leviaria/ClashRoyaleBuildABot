@@ -15,9 +15,9 @@ from clashroyalebuildabot.gui.animations import start_play_button_animation
 from clashroyalebuildabot.gui.layout_setup import setup_tabs
 from clashroyalebuildabot.gui.layout_setup import setup_top_bar
 from clashroyalebuildabot.gui.styles import set_styles
+from clashroyalebuildabot.utils import WikifiedError
 from clashroyalebuildabot.utils.logger import colorize_log
 from clashroyalebuildabot.utils.logger import setup_logger
-from error_handling import WikifiedError
 
 
 class MainWindow(QMainWindow):

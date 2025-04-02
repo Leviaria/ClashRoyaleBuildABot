@@ -7,7 +7,7 @@ from scipy.optimize import linear_sum_assignment
 from clashroyalebuildabot.constants import CARD_CONFIG
 from clashroyalebuildabot.constants import IMAGES_DIR
 from clashroyalebuildabot.namespaces.cards import Cards
-from error_handling import WikifiedError
+from clashroyalebuildabot.utils import WikifiedError
 
 
 class CardDetector:

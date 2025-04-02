@@ -3,7 +3,7 @@ import os
 import yaml
 
 from clashroyalebuildabot.constants import SRC_DIR
-from error_handling import WikifiedError
+from clashroyalebuildabot.utils import WikifiedError
 
 
 def load_config():
