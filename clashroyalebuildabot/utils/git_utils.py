@@ -3,7 +3,7 @@ from time import sleep
 
 from loguru import logger
 
-from error_handling import WikifiedError
+from clashroyalebuildabot.utils import WikifiedError
 
 
 def _is_branch_late() -> bool:
